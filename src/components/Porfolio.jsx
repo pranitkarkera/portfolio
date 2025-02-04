@@ -101,11 +101,11 @@ const Portfolio = () => {
           <p className="text-lg font-bold">Engineer @ LTIMindtree</p>
           <p className="text-gray-400">2021 - 2023</p>
           <p className="text-gray-500">
-            React application development for the private sector, focused on
-            accessibility, security, and digital innovation.
+            Projects on premise/ Azure cloud, support, upgrade and data
+            Migrations. Designed the solution to address the pin points and
+            leading the team is one of the key responsibilities.
           </p>
         </div>
-
 
         {/* Recent Projects */}
         <div className="rounded-lg w-full overflow-hidden">
