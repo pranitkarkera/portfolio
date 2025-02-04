@@ -101,9 +101,13 @@ const Portfolio = () => {
           <p className="text-lg font-bold">Engineer @ LTIMindtree</p>
           <p className="text-gray-400">2021 - 2023</p>
           <p className="text-gray-500">
-            Projects on premise/ Azure cloud, support, upgrade and data
-            Migrations. Designed the solution to address the pin points and
-            leading the team is one of the key responsibilities.
+            Provide 24/7 support for cloud infrastructure, ensuring high
+            availability and performance of services across AWS environments.
+          </p>
+          <p className="text-gray-500">
+            Troubleshoot and resolve complex issues related to cloud services,
+            networking, and server performance, achieving a 65% reduction in
+            incident response time.
           </p>
         </div>
 
