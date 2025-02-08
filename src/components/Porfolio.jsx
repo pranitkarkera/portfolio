@@ -98,7 +98,7 @@ const Portfolio = () => {
         {/* Current Role */}
         <div className="text-center md:text-left">
           <h2 className="text-xl font-semibold">Worked as</h2>
-          <p className="text-lg font-bold">Engineer @ LTIMindtree</p>
+          <p className="text-lg font-bold">Front-End Engineer @ LTIMindtree</p>
           <p className="text-gray-400">2021 - 2023</p>
           <p className="text-gray-500">
             Engaged with UX/UI designers to translate design concepts into
