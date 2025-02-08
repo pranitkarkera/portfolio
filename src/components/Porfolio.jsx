@@ -101,13 +101,20 @@ const Portfolio = () => {
           <p className="text-lg font-bold">Engineer @ LTIMindtree</p>
           <p className="text-gray-400">2021 - 2023</p>
           <p className="text-gray-500">
-            Provide 24/7 support for cloud infrastructure, ensuring high
-            availability and performance of services across AWS environments.
+            Engaged with UX/UI designers to translate design concepts into
+            functional user interfaces.
           </p>
           <p className="text-gray-500">
-            Troubleshoot and resolve complex issues related to cloud services,
-            networking, and server performance, achieving a 65% reduction in
-            incident response time.
+            Collaborated with cross-functional teams to enhance operational
+            practices, tools, and processes.
+          </p>
+          <p className="text-gray-500">
+            Optimized application performance through code splitting and lazy
+            loading techniques.
+          </p>
+          <p className="text-gray-500">
+            Contributed to the creation of style guides and component libraries
+            to maintain consistency across projects.
           </p>
         </div>
 
