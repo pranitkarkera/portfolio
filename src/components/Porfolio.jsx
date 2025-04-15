@@ -249,7 +249,7 @@ const Portfolio = () => {
               skilled, and ready to contribute, I'm here to help bring your
               ideas to life!
             </p>
-            <a href="https://drive.google.com/file/d/1UOBdGSYZe5rhRHcoTgy3L99P2pX8rI-1/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1_ICE0JhRojUMHk1waWKJkjetBD0khLjQ/view?usp=drive_link">
               <button className="rounded-full border px-2 py-1 border-gray-200 text-gray-600 mt-2">
                 Pranit_Karkera_CV
               </button>
