@@ -273,7 +273,7 @@ dynamic routing to enhance user experience and boost page load efficiency.
           <h2 className="text-lg font-semibold">Hire me</h2>
           <div className="mt-2">
             <p className="text-gray-400">
-              I'm currently available for internships, full-time opportunities,
+              I'm currently available for full-time opportunities,
               and freelance projects. If you're looking for someone passionate,
               skilled, and ready to contribute, I'm here to help bring your
               ideas to life!
