@@ -7,11 +7,17 @@ import {
   FaReact,
   FaNode,
   FaVideo,
-  FaLink
+  FaLink,
+  FaPython,
+  FaAws,
+  FaDocker
 } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { PiFileSqlFill } from "react-icons/pi";
+import { IoLogoJavascript } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { SiMongodb, SiRedux } from "react-icons/si";
+import { SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
 import Profile from "../assets/profileimg.jpg";
 import { BsDot } from "react-icons/bs";
 
@@ -96,33 +102,49 @@ const Portfolio = () => {
           <div>
             <h1 className="text-xl font-bold">Hi, I am Pranit Karkera</h1>
             <p className="text-gray-400">
-              A frontend developer specializing in UI design and creating
+              Frontend Engineer with 2+ years of experience specializing in UI design and creating
               engaging user experiences.
             </p>
             <p className="text-gray-500">Mumbai, India</p>
           </div>
         </div>
 
+
         {/* Current Role */}
+        <div className="text-center md:text-left">
+          <h2 className="text-xl font-semibold">Working as</h2>
+          <p className="text-lg font-bold">Software Developer @ Interactive Avenues</p>
+          <p className="text-gray-400">2025 - Present</p>
+          <p className="text-gray-500">
+            Developed responsive web applications improving mobile user engagement by 30% and achieving Lighthouse
+performance score above 90 for major client projects such as Bank of Baroda and Zodiac.
+          </p>
+          <p className="text-gray-500">
+            Collaborated with cross-functional teams—including design, backend, and QA—to deliver robust front-end solutions
+using modern JavaScript frameworks, resulting in performance optimization and reduced load times by 18%.
+          </p>
+          <p className="text-gray-500">
+            Built high-performance, SEO-optimized applications using Next.js, leveraging server-side rendering, API routes, and
+dynamic routing to enhance user experience and boost page load efficiency.
+          </p>
+        </div>
+
+        {/* Previous Role */}
         <div className="text-center md:text-left">
           <h2 className="text-xl font-semibold">Worked as</h2>
           <p className="text-lg font-bold">Front-End Engineer @ LTIMindtree</p>
           <p className="text-gray-400">2021 - 2023</p>
           <p className="text-gray-500">
-            Engaged with UX/UI designers to translate design concepts into
-            functional user interfaces.
+            Engaged with UX/UI designers to translate design concepts into functional user interfaces
           </p>
           <p className="text-gray-500">
-            Collaborated with cross-functional teams to enhance operational
-            practices, tools, and processes.
+            Collaborated with cross-functional teams to enhance operational practices, tools, and processes.
           </p>
           <p className="text-gray-500">
-            Optimized application performance through code splitting and lazy
-            loading techniques.
+             Accomplished responsive design principles to ensure optimal performance across various devices and screen sizes
           </p>
           <p className="text-gray-500">
-            Contributed to the creation of style guides and component libraries
-            to maintain consistency across projects.
+            Improved page load performance by 25% using code splitting, lazy loading, and bundle optimization techniques
           </p>
         </div>
 
@@ -184,10 +206,17 @@ const Portfolio = () => {
             {[
               { icon: <FaHtml5 />, label: "HTML 5" },
               { icon: <FaCss3Alt />, label: "CSS 3" },
-              { icon: <FaReact />, label: "React" },
-              { icon: <FaNode />, label: "Node" },
+              { icon: <IoLogoJavascript />, label: "JavaScript" },
+              { icon: <FaPython />, label: "Python" },
+              { icon: <PiFileSqlFill />, label: "SQL" },
+              { icon: <FaReact />, label: "ReactJS" },
+              { icon: <RiNextjsFill />, label: "NextJS" },
+              { icon: <SiTypescript />, label: "TypeScript" },
+              { icon: <FaNode />, label: "NodeJS" },
               { icon: <SiMongodb />, label: "MongoDB" },
               { icon: <SiRedux />, label: "Redux" },
+              { icon: <FaAws />, label: "AWS" },
+              { icon: <FaDocker />, label: "Docker" },
             ].map((tech, index) => (
               <div
                 key={index}
@@ -249,7 +278,7 @@ const Portfolio = () => {
               skilled, and ready to contribute, I'm here to help bring your
               ideas to life!
             </p>
-            <a href="https://drive.google.com/file/d/1_ICE0JhRojUMHk1waWKJkjetBD0khLjQ/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/140ZrhXKzaxSy5TeggJzw-g-UGqAnI4DC/view?usp=drive_link">
               <button className="rounded-full border px-2 py-1 border-gray-200 text-gray-600 mt-2">
                 Pranit_Karkera_CV
               </button>
